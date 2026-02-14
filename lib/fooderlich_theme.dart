@@ -16,7 +16,10 @@ class FooderlichTheme {
   );
 
   static TextTheme darkTextTheme = TextTheme(
-    bodyLarge: GoogleFonts.openSans(fontSize: 16, color: Colors.white),
+    bodyLarge: GoogleFonts.openSans(
+      fontSize: 16,
+      color: const Color.fromARGB(255, 255, 255, 255),
+    ),
     titleSmall: GoogleFonts.openSans(
       fontSize: 24,
       fontWeight: FontWeight.bold,
